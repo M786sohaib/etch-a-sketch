@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d28f8f;
+}
+.main {
+  display: flex;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #47acca;
+}
+.menu > p {
+  color: white;
+  padding: 2px;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+}
+.colorSelect {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.colorSelect > button {
+  margin-bottom: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 512px;
+  height: 512px;
+}
+.square {
+  border: 1px solid black;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+/* .divColored {
+  background-color: #974a4a;
+} */
+
+.default {
+  background-color: white;
+}
+.redColor {
+  background-color: red;
+}
+.blueColor {
+  background-color: blue;
+}
+.greenColor {
+  background-color: green;
+}
+.yellowColor {
+  background-color: yellow;
+}
+.gridButton {
+  margin: 20px 0 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 30px;
+  width: 207.98px;
+}
